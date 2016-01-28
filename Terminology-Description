@@ -1,0 +1,31 @@
+What is Manifests?
+	Manifests are files containing Puppet code. 
+	They are standard text files saved with the .pp extension. 
+	They contains the fallowing things.
+	
+What is a Module?
+	Module in puppet is nothing but a collection of manifests, files, templates, classes etc.
+	
+	Describe Module Layout?
+		Manifests
+    Files
+    Templates
+    Lib
+    facts.d
+    Examples
+    Spec
+    
+  What is a Facter?
+	Facter gathers basic facts about nodes (systems) such as 
+    Hardware details, 
+    Network settings, 
+    OS type and version, 
+    IP addresses, 
+    MAC addresses, 
+    SSH keys and more.
+    
+    What is a Catalog?
+  	A catalog is a document that describes the desired system state for one specific computer.
+
+
+

@@ -1,9 +1,37 @@
-Introduction to Puppet
+            Introduction to Puppet
+            
+•	What is Puppet?
+Puppet is an open-source configuration management tool. It runs on many Unix-like systems as well as on Microsoft Windows, and includes its own declarative language to describe system configuration.
 
-	What is Puppet?
 	Who made puppet and who supports it?
+Puppet is made by Luke Kanies. It is based on ruby language. Currently puppet is supported by Puppet Labs.
+
 	What are the advantages of Puppet?
-	System Components
-	Supported Versions for Debain and Red Hat Linux
-	Puppet Architecture
-	Mandatory Files
+Normally most of the configuration management tool, deploy the required configuration on a machine, and leave them as it is. But puppet keeps on verifying the configuration at a specified interval (which you can modify as per requirement).
+Puppet is used by major players in the industry like Google, red hat etc. Wide number of platforms are supported in puppet.
+
+	System Components?
+Puppet is typically used in a client/server formation, with all of your clients talking to one or more central servers. 
+Each client contacts the server periodically (every half hour, by default), downloads the latest configuration, and makes sure it is in sync with that configuration.
+Once done, the client can send a report back to the server indicating if anything needed to change. 
+
+	Supported Versions for Debain?
+•	Debian 6
+•	Debian 7
+•	Ubuntu 12.04 LTS
+•	Ubuntu 14.04 LTS
+
+	Supported Versions for RedHat?
+•	Enterprise Linux 5
+•	Enterprise Linux 6
+•	Enterprise Linux 7
+
+	Puppet Architecture:
+•	Standalone Mode:
+•	Master and client architecture mode:
+
+	Mandatory Files:
+  Nodes.pp
+	Site.pp
+	Puppet.conf
+

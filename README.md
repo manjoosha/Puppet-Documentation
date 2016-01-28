@@ -1,0 +1,2 @@
+# Puppet-Documentation
+Puppet Document

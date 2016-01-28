@@ -31,7 +31,7 @@ Once done, the client can send a report back to the server indicating if anythin
 •	Master and client architecture mode:
 
 	Mandatory Files:
-  Nodes.pp
+  	Nodes.pp
 	Site.pp
 	Puppet.conf
 

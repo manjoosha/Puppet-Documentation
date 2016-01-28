@@ -7,13 +7,13 @@ What is a Module?
 	Module in puppet is nothing but a collection of manifests, files, templates, classes etc.
 	
 	Describe Module Layout?
-		Manifests
-    Files
-    Templates
-    Lib
-    facts.d
-    Examples
-    Spec
+	Manifests
+    	Files
+    	Templates
+	Lib
+	facts.d
+	Examples
+    	Spec
     
   What is a Facter?
 	Facter gathers basic facts about nodes (systems) such as 
